@@ -1,5 +1,18 @@
 .App {
   text-align: center;
+  background-color: beige;
+}
+
+.col,
+.col-6 {
+  color: black;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  width: 100%;
+  display: table;
 }
 
 .App-logo {
@@ -9,7 +22,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: beige;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
