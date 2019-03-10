@@ -7,6 +7,10 @@ import ActionMenu from './ActionMenu.js';
 
 class App extends Component {
 
+  changeImage() {
+
+  }
+
   render() {
     return (
       <div className="App">
@@ -18,7 +22,7 @@ class App extends Component {
             </div>
             <div class="col-8">
               <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
+                <img src={logo} className="App-logo" alt="logo" onclick="this.changeImage()" />
               </header>
             </div>
             <div class="col-2">
