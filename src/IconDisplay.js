@@ -8,8 +8,15 @@ function IconDisplay(props) {
 			marginRight: '20px'
 		};
 
-		const faceStyle = {
+		const happyFaceStyle = {
 			color: '#ffd700',
+			fontSize: '6em',
+			marginTop: '20px',
+			marginRight: '20px'
+		};
+
+		const sadFaceStyle = {
+			color: 'blue',
 			fontSize: '6em',
 			marginTop: '20px',
 			marginRight: '20px'
@@ -18,12 +25,12 @@ function IconDisplay(props) {
 		var emotion;
 		if (props.emotion === "happy") {
 			emotion = <div>
-				<i className="fa fa-smile-o" style={faceStyle}/>
+				<i className="fa fa-smile-o" style={happyFaceStyle}/>
 			</div>;
 		}
 		else {
 			emotion = <div>
-				<i class="fa fa-frown-o" style={faceStyle} />
+				<i class="fa fa-frown-o" style={sadFaceStyle} />
 			</div>;
 		}
 
