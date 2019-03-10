@@ -42,7 +42,6 @@
 
 .sadnessPet {
   content: url(./images/sadness.svg);
-  animation: bounce 2s infinite;
 }
 
 .surprisePet {
